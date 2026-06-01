@@ -25,7 +25,7 @@ struct MotivationCardView: View {
                     .font(.system(size: 28))
             }
 
-            if streakWeeks > 1 {
+            if streakWeeks > 0 {
                 HStack(spacing: 6) {
                     Image(systemName: "flame.fill")
                         .foregroundColor(.orange)

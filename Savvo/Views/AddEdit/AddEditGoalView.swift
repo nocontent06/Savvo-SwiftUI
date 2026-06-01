@@ -171,7 +171,7 @@ struct AddEditGoalView: View {
                     .font(.system(size: 14, weight: .bold, design: .rounded))
                     .foregroundColor(AppColors.primary)
             }
-            Slider(value: $months, in: 1...120, step: 1)
+            Slider(value: $months, in: 1...Constants.maxGoalDurationMonths, step: 1)
                 .tint(AppColors.primary)
             HStack {
                 Text("1 Monat")

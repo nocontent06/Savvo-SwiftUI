@@ -27,6 +27,8 @@ enum Constants {
         "Schritt für Schritt zum Traumziel. 👣",
     ]
 
+    static let maxGoalDurationMonths: Double = 120
+
     static let defaultEmojis: [String] = [
         "🏖️", "🚗", "💻", "🏠", "✈️", "🎓",
         "💍", "🎸", "📱", "⛵", "🏋️", "🎨",

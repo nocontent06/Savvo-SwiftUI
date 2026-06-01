@@ -46,7 +46,7 @@ extension Double {
         return formatter.string(from: NSNumber(value: self)) ?? "€0,00"
     }
 
-    /// Compact Euro format without fractional part if zero: e.g. €1.234
+    /// Compact Euro format without fractional digits: e.g. €1.234
     var euroFormattedCompact: String {
         let formatter = NumberFormatter()
         formatter.numberStyle = .currency
