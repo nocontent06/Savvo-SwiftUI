@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90D64E596109EE8AE6045BBA /* SavvoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA43B63FA1FE5C88B544A2CD; };
+		C6A5AA1937C362EFE96D3E28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EED8A2ED0BAE0359DC140A; };
+		8AC7DACA9A1EF2C86B5A562E /* SavingsGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12D02A99486EED591EE12F3; };
+		CA918F3566330228022F822E /* Deposit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7059AB91C974C41617F6F9E2; };
+		08A236A7CC430CE5686E8E1D /* GoalsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E4AB1CC349ED1FBF5A1D2B; };
+		EDF2970155CEEFB65C4B8139 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7210ACEA01008CCEBC5E1FB8; };
+		F520E8367D931937169E4662 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592E937B8873AB43CD86F1A4; };
+		0D0BA096B47AC797DC33EF14 /* GoalCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A323FB59FB3B6BEECFE727; };
+		D916E7B0123C7A1DFB0F9F7D /* MotivationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC93FE268182E9D8F40BE3A; };
+		DBF659757A927880D0875B1A /* GoalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3F7E6CC5CEA1FFD44B05ED; };
+		9865E92EB671B8366E652E92 /* DepositSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59BC43D158C39DACEF19E86; };
+		2566297E20A23881963BC5A3 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24698E30306360A633D4F0C2; };
+		39432E6FB351F981A726125F /* AddEditGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE416B6F606D56B9BBF352DD; };
+		163EE3E534E9E1E8F7C35C68 /* EmojiPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FC74A5002FB6266E664F79; };
+		A050DEA615EF70326630A71F /* StatCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F884E09431BACC519FAECB45; };
+		194F4CC833C7397FF40D86DC /* MilestoneBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440FCE18714303C514FCE420; };
+		C194432EEA31B1289DBE3E25 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4EC4CB00A19FD6E4912FFC9; };
+		9C2FCEFE0F6CA6F4C9AC071F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5C515A70A9A9EE01C6CCB1; };
+		1B3E66A18B5174097204BD68 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5027FD2B323AD36C3329A4DC; };
+		84E67AFC9582C22B3D3F4FF1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F98B3E168DB05E90BE3D67A; };
+		04A7814E4EEC70DE7D6C41B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D562B3E40B6C9EC53F38F07; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA43B63FA1FE5C88B544A2CD /* SavvoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SavvoApp.swift"; path = "SavvoApp.swift"; sourceTree = "<group>"; };
+		B5EED8A2ED0BAE0359DC140A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ContentView.swift"; path = "ContentView.swift"; sourceTree = "<group>"; };
+		E12D02A99486EED591EE12F3 /* SavingsGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SavingsGoal.swift"; path = "SavingsGoal.swift"; sourceTree = "<group>"; };
+		7059AB91C974C41617F6F9E2 /* Deposit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Deposit.swift"; path = "Deposit.swift"; sourceTree = "<group>"; };
+		E0E4AB1CC349ED1FBF5A1D2B /* GoalsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "GoalsStore.swift"; path = "GoalsStore.swift"; sourceTree = "<group>"; };
+		7210ACEA01008CCEBC5E1FB8 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "NotificationManager.swift"; path = "NotificationManager.swift"; sourceTree = "<group>"; };
+		592E937B8873AB43CD86F1A4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "HomeView.swift"; path = "HomeView.swift"; sourceTree = "<group>"; };
+		F1A323FB59FB3B6BEECFE727 /* GoalCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "GoalCardView.swift"; path = "GoalCardView.swift"; sourceTree = "<group>"; };
+		4FC93FE268182E9D8F40BE3A /* MotivationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MotivationCardView.swift"; path = "MotivationCardView.swift"; sourceTree = "<group>"; };
+		AC3F7E6CC5CEA1FFD44B05ED /* GoalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "GoalDetailView.swift"; path = "GoalDetailView.swift"; sourceTree = "<group>"; };
+		E59BC43D158C39DACEF19E86 /* DepositSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "DepositSheetView.swift"; path = "DepositSheetView.swift"; sourceTree = "<group>"; };
+		24698E30306360A633D4F0C2 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "CircularProgressView.swift"; path = "CircularProgressView.swift"; sourceTree = "<group>"; };
+		AE416B6F606D56B9BBF352DD /* AddEditGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AddEditGoalView.swift"; path = "AddEditGoalView.swift"; sourceTree = "<group>"; };
+		11FC74A5002FB6266E664F79 /* EmojiPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "EmojiPickerView.swift"; path = "EmojiPickerView.swift"; sourceTree = "<group>"; };
+		F884E09431BACC519FAECB45 /* StatCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "StatCardView.swift"; path = "StatCardView.swift"; sourceTree = "<group>"; };
+		440FCE18714303C514FCE420 /* MilestoneBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "MilestoneBadgeView.swift"; path = "MilestoneBadgeView.swift"; sourceTree = "<group>"; };
+		E4EC4CB00A19FD6E4912FFC9 /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ConfettiView.swift"; path = "ConfettiView.swift"; sourceTree = "<group>"; };
+		BA5C515A70A9A9EE01C6CCB1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "SettingsView.swift"; path = "SettingsView.swift"; sourceTree = "<group>"; };
+		5027FD2B323AD36C3329A4DC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Extensions.swift"; path = "Extensions.swift"; sourceTree = "<group>"; };
+		1F98B3E168DB05E90BE3D67A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Constants.swift"; path = "Constants.swift"; sourceTree = "<group>"; };
+		8D562B3E40B6C9EC53F38F07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE29BE284D8E7CDFA377A125 /* Savvo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Savvo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29B2D46AA747A59804D46E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5928955287B8089ED2177128 /* MainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				AC09D4F3B3050FD0D5554051,
+				BF7A2D27A78D590BDEF15AF2,
+			);
+			name = MainGroup;
+			sourceTree = "<group>";
+		};
+		BF7A2D27A78D590BDEF15AF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE29BE284D8E7CDFA377A125,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC09D4F3B3050FD0D5554051 /* Savvo */ = {
+			isa = PBXGroup;
+			children = (
+				BA43B63FA1FE5C88B544A2CD,
+				B5EED8A2ED0BAE0359DC140A,
+				8D562B3E40B6C9EC53F38F07,
+				CA608C0B22E7B6F9B389BDDD,
+				E3EEF78AC67933824D83D3B4,
+				78EF4B0EA3FDA2A792BCF074,
+				42C8C8F52FD4BBFAB782A409,
+			);
+			path = Savvo;
+			sourceTree = "<group>";
+		};
+		CA608C0B22E7B6F9B389BDDD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E12D02A99486EED591EE12F3,
+				7059AB91C974C41617F6F9E2,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E3EEF78AC67933824D83D3B4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E0E4AB1CC349ED1FBF5A1D2B,
+				7210ACEA01008CCEBC5E1FB8,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		78EF4B0EA3FDA2A792BCF074 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				42EB2D6C143692D8A6C71924,
+				6DEC2CC29F81BBEDE466FBB9,
+				988D79E26E7969F1F393BEAF,
+				508B330CCDE923938D8FFB64,
+				33250EB94151AE7B521566A3,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		42EB2D6C143692D8A6C71924 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				592E937B8873AB43CD86F1A4,
+				F1A323FB59FB3B6BEECFE727,
+				4FC93FE268182E9D8F40BE3A,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6DEC2CC29F81BBEDE466FBB9 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				AC3F7E6CC5CEA1FFD44B05ED,
+				E59BC43D158C39DACEF19E86,
+				24698E30306360A633D4F0C2,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		988D79E26E7969F1F393BEAF /* AddEdit */ = {
+			isa = PBXGroup;
+			children = (
+				AE416B6F606D56B9BBF352DD,
+				11FC74A5002FB6266E664F79,
+			);
+			path = AddEdit;
+			sourceTree = "<group>";
+		};
+		508B330CCDE923938D8FFB64 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F884E09431BACC519FAECB45,
+				440FCE18714303C514FCE420,
+				E4EC4CB00A19FD6E4912FFC9,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		33250EB94151AE7B521566A3 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				BA5C515A70A9A9EE01C6CCB1,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		42C8C8F52FD4BBFAB782A409 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5027FD2B323AD36C3329A4DC,
+				1F98B3E168DB05E90BE3D67A,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* Savvo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02FCC2BDE0CCA88BCBAA3FB5;
+			buildPhases = (
+				E7209FB05162B7572F88D05E /* Sources */,
+				29B2D46AA747A59804D46E1F /* Frameworks */,
+				66F8606E9F0A136E2228EBCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Savvo;
+			productName = Savvo;
+			productReference = CE29BE284D8E7CDFA377A125 /* Savvo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 4623F89214148A3820E2F59A;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				de,
+				en,
+				Base,
+			);
+			mainGroup = 5928955287B8089ED2177128;
+			productRefGroup = BF7A2D27A78D590BDEF15AF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* Savvo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F8606E9F0A136E2228EBCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A7814E4EEC70DE7D6C41B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7209FB05162B7572F88D05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D64E596109EE8AE6045BBA /* SavvoApp.swift in Sources */,
+				C6A5AA1937C362EFE96D3E28 /* ContentView.swift in Sources */,
+				8AC7DACA9A1EF2C86B5A562E /* SavingsGoal.swift in Sources */,
+				CA918F3566330228022F822E /* Deposit.swift in Sources */,
+				08A236A7CC430CE5686E8E1D /* GoalsStore.swift in Sources */,
+				EDF2970155CEEFB65C4B8139 /* NotificationManager.swift in Sources */,
+				F520E8367D931937169E4662 /* HomeView.swift in Sources */,
+				0D0BA096B47AC797DC33EF14 /* GoalCardView.swift in Sources */,
+				D916E7B0123C7A1DFB0F9F7D /* MotivationCardView.swift in Sources */,
+				DBF659757A927880D0875B1A /* GoalDetailView.swift in Sources */,
+				9865E92EB671B8366E652E92 /* DepositSheetView.swift in Sources */,
+				2566297E20A23881963BC5A3 /* CircularProgressView.swift in Sources */,
+				39432E6FB351F981A726125F /* AddEditGoalView.swift in Sources */,
+				163EE3E534E9E1E8F7C35C68 /* EmojiPickerView.swift in Sources */,
+				A050DEA615EF70326630A71F /* StatCardView.swift in Sources */,
+				194F4CC833C7397FF40D86DC /* MilestoneBadgeView.swift in Sources */,
+				C194432EEA31B1289DBE3E25 /* ConfettiView.swift in Sources */,
+				9C2FCEFE0F6CA6F4C9AC071F /* SettingsView.swift in Sources */,
+				1B3E66A18B5174097204BD68 /* Extensions.swift in Sources */,
+				84E67AFC9582C22B3D3F4FF1 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AF553ED564EB4143D28737B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+CLANG_ANALYZER_NONNULL = YES;
+CLANG_ENABLE_MODULES = YES;
+CLANG_ENABLE_OBJC_ARC = YES;
+COPY_PHASE_STRIP = NO;
+GCC_C_LANGUAGE_STANDARD = gnu17;
+GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+GCC_WARN_UNUSED_VARIABLE = YES;
+IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+MTL_FAST_MATH = YES;
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+			};
+			name = Debug;
+		};
+		38D8ABCCB945710026C39602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+ALWAYS_SEARCH_USER_PATHS = NO;
+COPY_PHASE_STRIP = YES;
+GCC_C_LANGUAGE_STANDARD = gnu17;
+IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+MTL_FAST_MATH = YES;
+SWIFT_COMPILATION_MODE = wholemodule;
+SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D76C9AE50B902522C365F983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+GENERATE_INFOPLIST_FILE = YES;
+INFOPLIST_KEY_NSUserNotificationsUsageDescription = "Savvo sendet dir Erinnerungen und Meilenstein-Benachrichtigungen.";
+INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+MARKETING_VERSION = 1.0;
+PRODUCT_BUNDLE_IDENTIFIER = com.savvo.app;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DADBBA2E3EC6E6A3EE3F5542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+CODE_SIGN_STYLE = Automatic;
+CURRENT_PROJECT_VERSION = 1;
+GENERATE_INFOPLIST_FILE = YES;
+INFOPLIST_KEY_NSUserNotificationsUsageDescription = "Savvo sendet dir Erinnerungen und Meilenstein-Benachrichtigungen.";
+INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+MARKETING_VERSION = 1.0;
+PRODUCT_BUNDLE_IDENTIFIER = com.savvo.app;
+PRODUCT_NAME = "$(TARGET_NAME)";
+SWIFT_EMIT_LOC_STRINGS = YES;
+SWIFT_VERSION = 5.0;
+TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4623F89214148A3820E2F59A /* Build configuration list for PBXProject "Savvo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF553ED564EB4143D28737B9 /* Debug */,
+				38D8ABCCB945710026C39602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02FCC2BDE0CCA88BCBAA3FB5 /* Build configuration list for PBXNativeTarget "Savvo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D76C9AE50B902522C365F983 /* Debug */,
+				DADBBA2E3EC6E6A3EE3F5542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
