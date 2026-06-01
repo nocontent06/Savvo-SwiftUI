@@ -5,7 +5,7 @@ import SwiftUI
 enum AppColors {
     static let primary = Color(hex: "1D9E75")
     static let accent = Color(hex: "EF9F27")
-    static let background = Color(hex: "F9F8F5")
+    static let background = Color(.systemGroupedBackground)
 }
 
 // MARK: - Constants

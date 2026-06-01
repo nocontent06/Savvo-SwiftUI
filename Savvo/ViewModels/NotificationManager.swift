@@ -51,7 +51,7 @@ final class NotificationManager {
     func scheduleWeeklyReminder(for goal: SavingsGoal) {
         let content = UNMutableNotificationContent()
         content.title = "Zeit zum Sparen! 🎯"
-        content.body = "Dein Ziel „\(goal.name)" wartet auf dich."
+        content.body = "Dein Ziel '\(goal.name)' wartet auf dich."
         content.sound = .default
 
         var dateComponents = DateComponents()
@@ -76,7 +76,7 @@ final class NotificationManager {
     func scheduleMilestoneNotification(goalName: String, milestone: Int) {
         let content = UNMutableNotificationContent()
         content.title = "🎉 Meilenstein erreicht!"
-        content.body = "Du hast \(milestone) % deines Ziels „\(goalName)" erreicht!"
+        content.body = "Du hast \(milestone) % deines Ziels '\(goalName)' erreicht!"
         content.sound = .default
 
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1, repeats: false)

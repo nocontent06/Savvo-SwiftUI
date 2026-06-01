@@ -64,7 +64,7 @@ struct GoalDetailView: View {
             }
             Button("Abbrechen", role: .cancel) {}
         } message: {
-            Text("Alle Einzahlungen für „\(current.name)" werden ebenfalls gelöscht.")
+            Text("Alle Einzahlungen für '\(current.name)' werden ebenfalls gelöscht.")
         }
         .alert("🎉 \(milestonePercent) % erreicht!", isPresented: $showMilestoneAlert) {
             Button("Super! 🎉") {}
