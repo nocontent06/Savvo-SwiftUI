@@ -72,6 +72,22 @@ struct SettingsView: View {
                         .font(.system(size: 12, design: .rounded))
                 }
 
+                // ── Darstellung ───────────────────────────────────────
+                Section {
+                    Picker("Diagrammstil", selection: $store.settings.progressChartStyle) {
+                        ForEach(ProgressChartStyle.allCases, id: \.self) { style in
+                            Label(style.label, systemImage: style.icon).tag(style)
+                        }
+                    }
+                    .pickerStyle(.menu)
+                    .onChange(of: store.settings.progressChartStyle) { _ in store.saveData() }
+                } header: {
+                    Text("Darstellung")
+                } footer: {
+                    Text("Wähle, wie du deinen Sparfortschritt in der Detailansicht sehen möchtest.")
+                        .font(.system(size: 12, design: .rounded))
+                }
+
                 // ── App Info ──────────────────────────────────────────
                 Section {
                     LabeledContent("Version", value: "1.0.0")

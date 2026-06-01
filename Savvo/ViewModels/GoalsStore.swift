@@ -146,4 +146,28 @@ struct UserSettings: Codable {
     var firstName: String = ""
     var streakWeeks: Int = 0
     var lastDepositDate: Date?
+    var hasCompletedOnboarding: Bool = false
+    var progressChartStyle: ProgressChartStyle = .ring
+}
+
+// MARK: - ProgressChartStyle
+
+enum ProgressChartStyle: String, Codable, CaseIterable {
+    case ring, bar, line
+
+    var label: String {
+        switch self {
+        case .ring: return "Kreisdiagramm"
+        case .bar: return "Balkendiagramm"
+        case .line: return "Liniendiagramm"
+        }
+    }
+
+    var icon: String {
+        switch self {
+        case .ring: return "circle.circle.fill"
+        case .bar: return "chart.bar.fill"
+        case .line: return "chart.line.uptrend.xyaxis"
+        }
+    }
 }

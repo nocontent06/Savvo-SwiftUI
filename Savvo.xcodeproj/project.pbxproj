@@ -31,6 +31,13 @@
 		F511D9CB8F68D9D9B0341314 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A043BAE1603803A839C0CB52 /* ExploreView.swift */; };
 		F8FD0BA84A167FE482ED4A92 /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A6E743849E63F8101AC616 /* AnalysisView.swift */; };
 		32E97CC31667BAF165D33764 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B34FA781359331A3ED13A /* ProfileView.swift */; };
+		AB0001AA00000000000000A2 /* GoalCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0001AA00000000000000A1 /* GoalCategory.swift */; };
+		AB0001AA00000000000000A4 /* OnboardingCoordinatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0001AA00000000000000A3 /* OnboardingCoordinatorView.swift */; };
+		AB0001AA00000000000000A6 /* OnboardingWelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0001AA00000000000000A5 /* OnboardingWelcomeView.swift */; };
+		AB0001AA00000000000000A8 /* OnboardingCategoryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0001AA00000000000000A7 /* OnboardingCategoryPickerView.swift */; };
+		AB0001AA00000000000000AA /* OnboardingGoalBuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0001AA00000000000000A9 /* OnboardingGoalBuilderView.swift */; };
+		AB0001AA00000000000000AC /* OnboardingSavingsPlanPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0001AA00000000000000AB /* OnboardingSavingsPlanPreview.swift */; };
+		AB0001AA00000000000000AE /* SavingsPlanChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0001AA00000000000000AD /* SavingsPlanChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +66,13 @@
 		A043BAE1603803A839C0CB52 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		E5A6E743849E63F8101AC616 /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
 		638B34FA781359331A3ED13A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AB0001AA00000000000000A1 /* GoalCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCategory.swift; sourceTree = "<group>"; };
+		AB0001AA00000000000000A3 /* OnboardingCoordinatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinatorView.swift; sourceTree = "<group>"; };
+		AB0001AA00000000000000A5 /* OnboardingWelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingWelcomeView.swift; sourceTree = "<group>"; };
+		AB0001AA00000000000000A7 /* OnboardingCategoryPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCategoryPickerView.swift; sourceTree = "<group>"; };
+		AB0001AA00000000000000A9 /* OnboardingGoalBuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingGoalBuilderView.swift; sourceTree = "<group>"; };
+		AB0001AA00000000000000AB /* OnboardingSavingsPlanPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSavingsPlanPreview.swift; sourceTree = "<group>"; };
+		AB0001AA00000000000000AD /* SavingsPlanChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingsPlanChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +162,7 @@
 				AC3F7E6CC5CEA1FFD44B05ED /* GoalDetailView.swift */,
 				E59BC43D158C39DACEF19E86 /* DepositSheetView.swift */,
 				24698E30306360A633D4F0C2 /* CircularProgressView.swift */,
+				AB0001AA00000000000000AD /* SavingsPlanChartView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -163,8 +178,21 @@
 				A5534EA92B26FA8ADC30543F /* Explore */,
 				C8C8050EED40EF171CC2784D /* Analysis */,
 				3E7D80FDFED273606F4C76FF /* Profile */,
+				AB0001AA000000000000000F /* Onboarding */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		AB0001AA000000000000000F /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				AB0001AA00000000000000A3 /* OnboardingCoordinatorView.swift */,
+				AB0001AA00000000000000A5 /* OnboardingWelcomeView.swift */,
+				AB0001AA00000000000000A7 /* OnboardingCategoryPickerView.swift */,
+				AB0001AA00000000000000A9 /* OnboardingGoalBuilderView.swift */,
+				AB0001AA00000000000000AB /* OnboardingSavingsPlanPreview.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		988D79E26E7969F1F393BEAF /* AddEdit */ = {
@@ -203,6 +231,7 @@
 			children = (
 				E12D02A99486EED591EE12F3 /* SavingsGoal.swift */,
 				7059AB91C974C41617F6F9E2 /* Deposit.swift */,
+				AB0001AA00000000000000A1 /* GoalCategory.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -309,6 +338,13 @@
 				F511D9CB8F68D9D9B0341314 /* ExploreView.swift in Sources */,
 				F8FD0BA84A167FE482ED4A92 /* AnalysisView.swift in Sources */,
 				32E97CC31667BAF165D33764 /* ProfileView.swift in Sources */,
+				AB0001AA00000000000000A2 /* GoalCategory.swift in Sources */,
+				AB0001AA00000000000000A4 /* OnboardingCoordinatorView.swift in Sources */,
+				AB0001AA00000000000000A6 /* OnboardingWelcomeView.swift in Sources */,
+				AB0001AA00000000000000A8 /* OnboardingCategoryPickerView.swift in Sources */,
+				AB0001AA00000000000000AA /* OnboardingGoalBuilderView.swift in Sources */,
+				AB0001AA00000000000000AC /* OnboardingSavingsPlanPreview.swift in Sources */,
+				AB0001AA00000000000000AE /* SavingsPlanChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

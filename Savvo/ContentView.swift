@@ -1,6 +1,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    @EnvironmentObject var store: GoalsStore
+    @State private var showOnboarding = false
+
     var body: some View {
         TabView {
             HomeView()
@@ -24,6 +27,18 @@ struct ContentView: View {
                 }
         }
         .tint(AppColors.primary)
+        .fullScreenCover(isPresented: $showOnboarding) {
+            OnboardingCoordinatorView()
+                .environmentObject(store)
+        }
+        .onAppear {
+            if !store.settings.hasCompletedOnboarding {
+                showOnboarding = true
+            }
+        }
+        .onChange(of: store.settings.hasCompletedOnboarding) { completed in
+            if completed { showOnboarding = false }
+        }
     }
 }
 

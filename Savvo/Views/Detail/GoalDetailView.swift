@@ -26,6 +26,10 @@ struct GoalDetailView: View {
                 VStack(spacing: 24) {
                     heroSection
                     statsGrid
+                    if store.settings.progressChartStyle != .ring {
+                        SavingsPlanChartView(goal: current, style: store.settings.progressChartStyle)
+                            .padding(.horizontal)
+                    }
                     depositButton
                     milestonesSection
                     depositHistorySection
@@ -82,7 +86,9 @@ struct GoalDetailView: View {
                 .font(.system(size: 76))
                 .padding(.top, 12)
 
-            CircularProgressView(progress: current.progress, size: 168)
+            if store.settings.progressChartStyle == .ring {
+                CircularProgressView(progress: current.progress, size: 168)
+            }
         }
     }
 
